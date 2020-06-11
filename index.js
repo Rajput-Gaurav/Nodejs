@@ -1,9 +1,14 @@
 // examples:
 // create a object and pass two parameter onit:
-var rect = {
-            perimeter: (x,y) => (2*(x+y)),
-            area: (x,y) => (x*y)
-};
+// var rect = {
+//             perimeter: (x,y) => (2*(x+y)),
+//             area: (x,y) => (x*y)
+// };
+
+// import node_modules which we are created:
+// import rectangle node_modules:
+
+var rect = require('./rectangle');
 
 // create a new function too print the values:
 function solveRect(l,b){
